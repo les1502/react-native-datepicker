@@ -36,12 +36,12 @@ export default class MyDatePicker extends Component {
     return (
       <DatePicker
         style={{width: 200}}
-        date={this.state.date}
-        mode="date"
-        placeholder="select date"
-        format="YYYY-MM-DD"
-        minDate="2016-05-01"
-        maxDate="2016-06-01"
+        date={this.state.date}//数值
+        mode="date"// date, datetime and time
+        placeholder="select date"//默认文字
+        format="YYYY-MM-DD"//格式
+        minDate="2016-05-01"//可选择的最小日期
+        maxDate="2016-06-01"//可选择的最大日期
         confirmBtnText="Confirm"
         cancelBtnText="Cancel"
         customStyles={{
